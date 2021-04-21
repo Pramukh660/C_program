@@ -13,7 +13,7 @@ int direct(int n)
     return n*(n+1)/2; //using formula of summation of n
 }
 
-int loop(int n)
+int loop(int n) /// Using for loop
 {
     int sum=0;
     for (int i = 1; i <= n; ++i)
