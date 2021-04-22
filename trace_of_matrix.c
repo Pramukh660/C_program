@@ -2,10 +2,10 @@
 void main()
 {
     int m,n,i,j,sum=0;
-    int a[10][10];
     
     printf("Enter the order of matrix\n");
     scanf("%d%d",&m,&n);
+    int a[m][n];
     printf("Enter the %d elements of the matrix\n",m*n);
 
     //Read the matrix A
@@ -14,6 +14,7 @@ void main()
             scanf("%d",&a[i][j]);
 
     //printing the matrix
+    printf("The given matris is:\n");
     for (int i=0; i<m; i++)
     {
         for(int j=0; j<n; j++)
